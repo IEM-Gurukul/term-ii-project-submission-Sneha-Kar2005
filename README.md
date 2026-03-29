@@ -46,7 +46,7 @@ This project simulates an Elevator Control System using the **State Design Patte
 
 ---
 
-## 🏗 Proposed Architecture Description
+##  Proposed Architecture Description
 The system follows the **State Design Pattern** where the Elevator class acts as the context, maintaining the current state and floor. A State interface defines common operations, and multiple concrete state classes (Idle, Moving, Door states) implement specific behaviors.
 
 The elevator dynamically transitions between states based on user requests and internal conditions. A request queue manages multiple floor calls efficiently, while a UI layer (console or Java Swing GUI) displays real-time status.
@@ -61,7 +61,7 @@ This architecture eliminates complex conditional logic, improves modularity, and
 - Java JDK (version 8 or above)  
 - Any IDE (IntelliJ / Eclipse / VS Code)  
 
-### ⚙️ Steps
+###  Steps
 1. Clone or download the project  
 2. Open the project in your IDE  
 3. Navigate to:
